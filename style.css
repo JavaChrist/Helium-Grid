@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  font-family: "inter" sans-serif;
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+p {
+  font-size: 0.8rem;
+}
+body {
+  min-height: 100vh;
+  background: rgb(29, 29, 29);
+  color: rgb(241, 232, 232);
+}
+nav {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px 20px;
+}
+nav ul {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 30px auto;
+}
+h1 {
+  font-size: 5rem;
+}
+.header-left-container h3 {
+  color: #474dff;
+  font-size: 1.8rem;
+}
+.header-right {
+  width: 50%;
+}
+#modem {
+  width: 100%;
+  margin: 0 auto;
+}
+.infos {
+  display: grid;
+  grid-template-columns: 33% 66%;
+  background: rgb(10, 10, 10);
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background: #474dff;
+  color: white;
+  width: 150px;
+  padding: 10px 0;
+  border-radius: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 5px;
+}
+
+.investors {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 86%;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.img-container img {
+  height: 60px;
+}
